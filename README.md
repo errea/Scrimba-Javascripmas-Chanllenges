@@ -1,23 +1,21 @@
-Scrimba-Javascripmas-Chanllenges
+ Scrimba Javascripmas Challenges
 Solutions to Day 1 to 24 of the 24 Days of #JavaScriptmas  Scrimba challenges
 
 @@@@@@@@@@@ JAVASCRIPTMAS CHALLENGES DAY 1@@@@@@@@@@@@@@
 
-@@@@@ PROBLEM 
-n children have got m pieces of candy. They want to eat as much candy as the can, but each child mush eat exactly the same 
+@@@@@ PROBLEM
+n children have got m pieces of candy. They want to eat as much candy as the can, but each child mush eat exactly the same
 amount of candy as an other child. Determine how many pieces f candy will be eaten by all children together. Individual pieces of candy cannot
 be split.
 Example: for n=3 and m=10, the output should be candies(n,m) = 9
 Each child would eat three pieces and the answer is 9'
 
-
-
 @@@@@@@@@@@ JAVASCRIPTMAS CHALLENGES DAY 2 @@@@@@@@@@@@@@
 
-@@@@@ PROBLEM 
+@@@@@ PROBLEM
 You have deposited a certain/specific amount of dollars into your account. Each year your balance increases as the same growth rate.
 Find out how much it would take for your balance to have a specific threshold with the assumption that you dont make any additional depoits.
-Example 
+Example
 for deposit = 100, rate = 200 and threshold = 170 the output should be depositProfit(deposit, rate, threshold) = 3
 Each year the amount of money on your acount increases by 20%. it means that throughout the year your balance would be
 *year 0:100
@@ -27,7 +25,7 @@ Each year the amount of money on your acount increases by 20%. it means that thr
 
 @@@@@@@@@@@ JAVASCRIPTMAS CHALLENGES DAY 3 @@@@@@@@@@@@@@
 
-@@@@@ PROBLEM 
+@@@@@ PROBLEM
  Chunky Monkey
 Write a function that splits an array (first argument) into groups the length of size (second argument) and returns them as a two-dimensional array.
 Example
@@ -36,7 +34,7 @@ Example
 
 @@@@@@@@@@@ JAVASCRIPTMAS CHALLENGES DAY 4 @@@@@@@@@@@@@@
 
-@@@@@ PROBLEM 
+@@@@@ PROBLEM
  Century From Year
 Given a year, return the century it is in. The first century spans from the years 1 up to and including the year 100
 the second - from the year 101 up to and including the year 200, etc
@@ -46,8 +44,8 @@ Example
 
 @@@@@@@@@@@ JAVASCRIPTMAS CHALLENGES DAY 5 @@@@@@@@@@@@@@
 
-@@@@@ PROBLEM 
-Reverse a string 
+@@@@@ PROBLEM
+Reverse a string
 You may need to turn the string into a array before reversing it.
 Example
 *reverseAString("hello") return "olleh"
@@ -55,8 +53,8 @@ Example
 
 @@@@@@@@@@@ JAVASCRIPTMAS CHALLENGES DAY 6 @@@@@@@@@@@@@@
 
-@@@@@ PROBLEM 
-Sort By Length 
+@@@@@ PROBLEM
+Sort By Length
 Given an array of strings, sort them in the order of increasing lengths. If two 
 strings have the same length their relative order must be the same as in the initial
 array.
@@ -66,11 +64,11 @@ Example
 
 @@@@@@@@@@@ JAVASCRIPTMAS CHALLENGES DAY 7 @@@@@@@@@@@@@@
 
-@@@@@ PROBLEM 
+@@@@@ PROBLEM
 Count Vowel Consonant
 You are given a string s that consists of only lowerCase English letters. If vowel
 ("a","e","i","o", and "u") are given a value of 1 and consonants are given a value of 2.
-Return the sum of the letters in the input String 
+Return the sum of the letters in the input String
 Example
 *For s = "abcde" the output should ne countedVowelConsonants = 8
 
@@ -79,9 +77,9 @@ Example
 @@@@@ PROBLEM
 Rolling Dice
 DESCRIPTION:
-In this challenge a casino has asked you to make an online dice that works just like 
-it wold in real life. Using the pre-made dice face that represents ‘one’, make the 
-faces for ‘two’, ‘three’, ‘four’, ‘five’ and ‘six’. Now when the users clicks the 
+In this challenge a casino has asked you to make an online dice that works just like
+it wold in real life. Using the pre-made dice face that represents ‘one’, make the
+faces for ‘two’, ‘three’, ‘four’, ‘five’ and ‘six’. Now when the users clicks the
 dice on the screen the dice is expected to show one of the faces randomly.
 
 DETAILED INSTRUCTIONS
@@ -98,12 +96,12 @@ STRETCH GOALS:
 @@@@@ PROBLEM
 Sum Odd Fibonacci Numbers
 DESCRIPTION:
-Given a positive num, return the sum of all odd Fibonacci numbers that are less 
+Given a positive num, return the sum of all odd Fibonacci numbers that are less
 than or equal to num. The first two numbers in the Fibonacci sequence are 1 and 1.
-Every additional number in the sequence is the sum of the two previous numbers. 
+Every additional number in the sequence is the sum of the two previous numbers.
 The first six numbers of the Fibonacci sequence are 1,1,2,3,5 and 8.
 
-For example sumFibs(10) should return 10 because all odd Fibonacci numbers less 
+For example sumFibs(10) should return 10 because all odd Fibonacci numbers less
 than or equal to 10 are 1,1,3, and 5
 
 Example
@@ -111,24 +109,21 @@ Example
 *sumOddFibonacciNums(1000) should return 1785
 *umOddFibonacciNums(4000000 ) should return 4613732
 
-
-
 @@@@@@@@@@@ JAVASCRIPTMAS CHALLENGES DAY 10 @@@@@@@@@@@@@@
 
 @@@@@ PROBLEM
 Adjacent Elements Product
 
-Given an array of integers, find the pair of adjacent elements that has the largest and return 
+Given an array of integers, find the pair of adjacent elements that has the largest and return
 that product
 Example:
-For inputArray = [3,6,-2,-5,7,3] the output should be adjacentElementProduct(inputArray) = 21. 7 and 3 produce the 
+For inputArray = [3,6,-2,-5,7,3] the output should be adjacentElementProduct(inputArray) = 21. 7 and 3 produce the
 largest product.
-
 
 @@@@@@@@@@@ JAVASCRIPTMAS CHALLENGES DAY 11 @@@@@@@@@@@@@@
 
 @@@@@ PROBLEM  
-Avoid Obstacles 
+Avoid Obstacles
 
 You are given an array of integers representing coordinates of obstacles situated in a straight line.
 
@@ -141,7 +136,7 @@ For inputArray = [5,3,6,7,9] the output should be avoidObstacles(inputArray) = 4
 @@@@@@@@@@@ JAVASCRIPTMAS CHALLENGES DAY 12 @@@@@@@@@@@@@@
 
 @@@@@ PROBLEM  
- Valid Time 
+Valid Time
 
 Check if the given string is a correct time representation of the 24-hour clock
 
@@ -159,7 +154,7 @@ Example:
 Given array of integers, remove each kth element from it
 
 Example:
-*For inputArray = [1,2,3,4,5,6,7,8,9,10] and k = 3, the output should be 
+*For inputArray = [1,2,3,4,5,6,7,8,9,10] and k = 3, the output should be
 extractEachKth (inputArray, k) = [1,2,4,5,7,8,10]
 // hint filter()
 
@@ -168,7 +163,7 @@ extractEachKth (inputArray, k) = [1,2,4,5,7,8,10]
 @@@@@ PROBLEM  
  Maximal Adjacent Difference
 
-Given an array of integers, find the minimal absolute difference between any 
+Given an array of integers, find the minimal absolute difference between any
 two of its adjacent elements.
 
 Example:
@@ -181,9 +176,9 @@ Example:
 
 @@@@@ PROBLEM  
  Javascript Carousel
-# HTML
-#CSS
-#JS
+HTML
+CSS
+JS
 
 @@@@@@@@@@@ JAVASCRIPTMAS CHALLENGES DAY 16 @@@@@@@@@@@@@@
 
@@ -265,4 +260,40 @@ Hints
 *split()
 *push()
 
+@@@@@@@@@@@ JAVASCRIPTMAS CHALLENGES DAY 21 @@@@@@@@@@@@@@
 
+@@@@@ PROBLEM  
+ Sum of 2
+You have two integer arrays, a and b, and an integer target value v. Determine
+whether there is a pair of numbers, where one number is taken from a and the other
+from b, that can be added together to get a sun of v. Return true if such a pair exists.
+Otherwise return false
+
+Example
+*For a = [1,2,3], b = [10,20,30,40], and v = 42. The output should be sumOfTwo(a,b,v) = true;
+Hints
+*hasOwnProperty
+
+@@@@@@@@@@@ JAVASCRIPTMAS CHALLENGES DAY 22 @@@@@@@@@@@@@@
+
+@@@@@ PROBLEM  
+ Extract Matrix Column
+Given a rectanglar matrix and an integer column, return an array containing the elements
+of the columnth column of the given matrix (the lefmost column is the 0th one)
+
+Example
+*For matrix = [[1,1,1,2],[0,5,0,4,],[2,1,3,6]] and column = 2. The output should be extractMatrixColumn(matrix,column) = [1,0,3];
+Hints
+*push()
+
+@@@@@@@@@@@ JAVASCRIPTMAS CHALLENGES DAY 23 @@@@@@@@@@@@@@
+
+@@@@@ PROBLEM  
+ Social media input challenge
+Use JS to count characters
+Dynamically show the characters used/ characters remaining
+Disable the tweet button if maximum character limit is exceeded
+
+Example
+*keydown event listener
+*input.value.length property
